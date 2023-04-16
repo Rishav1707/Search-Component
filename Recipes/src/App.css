@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+  --primary-color: #FF7F50;
+  --secondary-color: #4B0082;
+  --border-color: #d2643d;
+}
+
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #E6E6FA;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  margin: 0rem 0rem 5rem 2rem;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 1.5em;
+  margin: -4rem 0rem 0rem 10rem;
+  text-align: start;
+}
+
+label {
+  font-size: 1.3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  width: 20rem;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.25s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+  width: 50rem;
+  margin-top: 5rem;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 5rem;
+}
