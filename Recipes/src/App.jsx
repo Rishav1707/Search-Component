@@ -12,9 +12,10 @@ export default function FilterableList() {
 
   return (
     <>
-      <h3>Food Menu</h3>
+      <h3 className="menu">Food Menu🍻</h3>
       <SearchBar query={query} onChange={handleChange} />
       <List items={results} />
+      <h3 className="menu">Enjoy your meal❣️</h3>
     </>
   );
 }

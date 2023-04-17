@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
-:root {
-  --primary-color: #FF7F50;
-  --secondary-color: #4B0082;
-  --border-color: #d2643d;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Tilt+Prism&display=swap');
 
 #root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -19,6 +14,12 @@ body {
   place-items: center;
   min-height: 100vh;
   background-color: #E6E6FA;
+}
+
+.menu {
+  font-size: 5em;
+  margin: 0rem 0rem 5rem 2rem;
+  font-family: 'Caveat', cursive;
 }
 
 h3 {
@@ -40,8 +41,8 @@ p {
 }
 
 label {
-  font-size: 1.3em;
-  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  font-family: 'Caveat', cursive;
 }
 
 input {
@@ -70,4 +71,49 @@ li {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  /* Styles for screens with a maximum width of 768px */
+  #root {
+    padding: 2rem;
+  }
+
+  .menu {
+    font-size: 2.7em;
+    margin: 0rem 0rem 2rem 1rem;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: -2rem 0rem 2rem 1rem;
+  }
+
+  img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  p {
+    font-size: 1em;
+    margin: -4rem 0rem 0rem 7rem;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  input {
+    width: 15rem;
+    padding: 0.6rem;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
 }
