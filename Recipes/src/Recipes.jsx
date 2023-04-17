@@ -18,7 +18,7 @@ export const foods = [
     name: "Biryani",
     description:
       "A fragrant rice dish cooked with spices and either meat, vegetables or both. Biryani is often served with raita (yogurt-based side dish).",
-    src: "https://norecipes.com/wp-content/uploads/2017/05/chicken-biryani-11.jpg",
+    src: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?cs=srgb&dl=pexels-rajesh-tp-1624487.jpg&fm=jpg",
   },
   {
     id: 2,
