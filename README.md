@@ -5,3 +5,29 @@
 <br>
 
 ![image](https://user-images.githubusercontent.com/97666287/233029018-065184dc-3c00-4371-8ce9-610900bec055.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Your Username/Search-Component.git
+```
+
+Go to the project directory
+
+```bash
+  cd Search-Component
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
