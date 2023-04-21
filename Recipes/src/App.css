@@ -16,6 +16,27 @@ body {
   background-color: #E6E6FA;
 }
 
+.mainTheme {
+  display: flex;
+  justify-content: end;
+}
+
+.theme {
+  background-color: #E6E6FA;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+}
+
+.theme:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.App.dark {
+  background-color: #23272f;
+  color: #fff;
+}
+
 .menu {
   font-size: 5em;
   margin: 0rem 0rem 5rem 2rem;
