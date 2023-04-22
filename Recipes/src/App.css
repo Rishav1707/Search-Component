@@ -8,12 +8,23 @@
   text-align: center;
 }
 
+:root {
+  --color-background: #E6E6FA;
+  --color-font: #000;
+}
+
+.dark-theme-variables {
+  --color-background: #23272f;
+  --color-font: #fff;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-height: 100vh;
-  background-color: #E6E6FA;
+  background-color: var(--color-background);
+  color: var(--color-font);
 }
 
 .mainTheme {
@@ -22,19 +33,14 @@ body {
 }
 
 .theme {
-  background-color: #E6E6FA;
+  background-color: var(--color-background);
   border: none;
   cursor: pointer;
-  border-radius: 25%;
 }
 
-.theme:hover {
+svg {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.App.dark {
-  background-color: #23272f;
-  color: #fff;
+  border-radius: 25%;
 }
 
 .menu {
@@ -99,6 +105,11 @@ li {
   /* Styles for screens with a maximum width of 768px */
   #root {
     padding: 2rem;
+  }
+
+  svg {
+    width: 2em;
+    height: 2em;
   }
 
   .menu {

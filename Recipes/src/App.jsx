@@ -13,17 +13,18 @@ export default function FilterableList() {
   }
 
   function toggleTheme() {
+    document.body.classList.toggle("dark-theme-variables");
     setTheme(theme === "light" ? "dark" : "light");
   }
 
   return (
-    <div className={`App ${theme}`}>
+    <>
       <Theme toggleTheme={toggleTheme} theme={theme} />
       <h3 className="menu">Food Menu🍻</h3>
       <SearchBar query={query} onChange={handleChange} />
       <List items={results} />
       <h3 className="menu">Enjoy your meal❣️</h3>
-    </div>
+    </>
   );
 }
 
