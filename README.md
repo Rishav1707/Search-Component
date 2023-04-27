@@ -4,7 +4,7 @@
 
 <br>
 
-![image](https://user-images.githubusercontent.com/97666287/233782859-97c4b1a7-b44e-4aeb-b03e-9b08a2c990df.png)
+![image](https://user-images.githubusercontent.com/97666287/234875944-c7bc427f-f7ec-4da6-80ca-6b97578663dd.png)
 
 ## Run Locally
 
