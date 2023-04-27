@@ -33,7 +33,7 @@ body {
 }
 
 .theme {
-  background-color: var(--color-background);
+  background-color: transparent;
   border: none;
   cursor: pointer;
 }
